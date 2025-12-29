@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_URL: ${{ secrets.BASE_URL }}
-      EMAIL: ${{ secrets.GALAXY_EMAIL }}
-      PASSWORD: ${{ secrets.GALAXY_PASSWORD }}
+      EMAIL: ${{ secrets.EMAIL }}
+      PASSWORD: ${{ secrets.PASSWORD }}
       PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
     steps:
     - uses: actions/checkout@v4

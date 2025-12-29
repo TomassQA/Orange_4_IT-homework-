@@ -9,7 +9,7 @@ const PASSWORD = process.env.PASSWORD;
 
 test.skip(
   !EMAIL || !PASSWORD,
-  "GALAXY_EMAIL and GALAXY_PASSWORD must be set to run auth token tests"
+  "EMAIL and PASSWORD must be set to run auth token tests"
 );
 
 let authToken: string;

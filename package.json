@@ -1,0 +1,14 @@
+{
+  "name": "orange-4-it-homework",
+  "version": "1.0.0",
+  "description": "Basic CRUD API tests for galaxy.scalar.com",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^25.0.3",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.0"
+  }
+}
